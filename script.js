@@ -15,27 +15,27 @@ function changetime() {
 
     if(flag==0)
     {
-        myimg.src = "\\body_images\\sun.png";
+        myimg.src = "\\Portfolio\\body_images\\sun.png";
         bg.style.backgroundColor="#03cafc";
         navbar.style.backgroundColor="#0a86c4";
         dev.style.color="#0a86c4";
 
-        about.href="\\about\\about_blue.html";
-        skills.href="\\skills\\skills_blue.html";
-        projects.href="\\projects\\projects_blue.html";
-        contact.href="\\contact\\contact_blue.html";
+        about.href="\\Portfolio\\about\\about_blue.html";
+        skills.href="\\Portfolio\\skills\\skills_blue.html";
+        projects.href="\\Portfolio\\projects\\projects_blue.html";
+        contact.href="\\Portfolio\\contact\\contact_blue.html";
         flag=1;
     }
     else{
-        myimg.src = "\\body_images\\moon.png";
+        myimg.src = "\\Portfolio\\body_images\\moon.png";
         bg.style.backgroundColor="#3c1273";
         navbar.style.backgroundColor="blueviolet";
         dev.style.color="blueviolet";
 
-        about.href="\\about\\about_purple.html"; 
-        skills.href="\\skills\\skills_purple.html";
-        projects.href="\\projects\\projects_purple.html";
-        contact.href="\\contact\\contact_purple.html";
+        about.href="\\Portfolio\\about\\about_purple.html"; 
+        skills.href="\\Portfolio\\skills\\skills_purple.html";
+        projects.href="\\Portfolio\\projects\\projects_purple.html";
+        contact.href="\\Portfolio\\contact\\contact_purple.html";
         flag=0;
     }
 
